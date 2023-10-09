@@ -44,7 +44,7 @@ public class HDFCConsumer {
 		System.out.println(updateFirst);
 
 		System.out.println("received to hdfc");
-		return "balance updated in your HDFC bank account : " + final_bal;
+		return "balance updated in HDFC BANK :: account number = "+ accountNumber +" HDFC Balance : " + final_bal;
 	}
 
 }
